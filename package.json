@@ -1,0 +1,22 @@
+{
+  "name": "proyecto1-back",
+  "version": "1.0.0",
+  "description": "la parte de back del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pystudent1913/proyecto1-back.git"
+  },
+  "author": "Cristian Sotomayor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pystudent1913/proyecto1-back/issues"
+  },
+  "homepage": "https://github.com/pystudent1913/proyecto1-back#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

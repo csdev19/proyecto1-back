@@ -11,4 +11,6 @@ node -v   // v12.18.3
 npm -v    // v6.14.8
 ```
 
+## Autores
 
+- Garlic apoya

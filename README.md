@@ -13,4 +13,4 @@ npm -v    // v6.14.8
 
 ## Autores
 
-- Garlic apoya
+- Garlic apoya (ya funcionan los pull requests)

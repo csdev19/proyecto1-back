@@ -22,9 +22,10 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "dev": "npx nodemon index",
+    "eslint": "^7.9.0",
     "jest": "^26.4.2",
     "nodemon": "^2.0.4",
-    "dev": "npx nodemon index",
     "supertest": "^4.0.2"
   }
 }

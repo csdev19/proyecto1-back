@@ -4,7 +4,8 @@
   "description": "la parte de back del proyecto",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "npm start",
+    "dev": "npx nodemon index"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,6 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "dev": "npx nodemon index",
     "eslint": "^7.9.0",
     "jest": "^26.4.2",
     "nodemon": "^2.0.4",

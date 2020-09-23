@@ -13,11 +13,14 @@ app
   .use(bodyParser.json({ limit: '5mb' }));
 
 
-const r_login = require('./app/routes/login');
-const r_auth = require('./app/modules/auth/r_auth');
+const r_login   = require('./app/routes/login');
+const r_auth    = require('./app/modules/auth/r_auth');
+const r_profile = require('./app/modules/profile/r_profile');
+
 app
-  .use(`/login`, r_login)
-  .use(`/auth`, r_auth);
+  .use('/login', r_login)
+  .use('/profile', r_profile)
+  .use('/auth', r_auth);
 
 
 app.get('/', (req, res) => {

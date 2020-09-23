@@ -16,10 +16,12 @@ app
 const r_login   = require('./app/routes/login');
 const r_auth    = require('./app/modules/auth/r_auth');
 const r_profile = require('./app/modules/profile/r_profile');
+const r_publication = require('./app/modules/publication/r_publication');
 
 app
   .use('/login', r_login)
   .use('/profile', r_profile)
+  .use('/publication', r_publication)
   .use('/auth', r_auth);
 
 
